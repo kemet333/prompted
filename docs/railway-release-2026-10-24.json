@@ -1,0 +1,47 @@
+{
+  "source": "Approved live Railway release, 2026-10-24",
+  "checked_at": "2026-10-25",
+  "railway_project_id": "e6946c26-6910-4432-938f-11462a8225a4",
+  "railway_service_id": "7908222e-16cc-43e7-bfa3-4a66fbf07e46",
+  "railway_environment_id": "ccd818df-a79a-4a6f-93c6-df6e07b462ff",
+  "railway_deployment_id": "5d56c1d4-feca-47c2-9a4c-ca3f0dee1860",
+  "url": "https://prompted-web-production.up.railway.app/",
+  "public_html_matches_source": true,
+  "files": [
+    {
+      "path": "Dockerfile",
+      "bytes": 73,
+      "sha256": "7274043ef8d3efb93a04b97c1eb970ae1469da5a6f6124a5b06666e3b2a560ac"
+    },
+    {
+      "path": "Caddyfile",
+      "bytes": 242,
+      "sha256": "a69d59ebd7686937473e0de8d41ff1e82cff31b7fb7fad11f0379ae11ae4ffbe"
+    },
+    {
+      "path": "site/index.html",
+      "bytes": 660788,
+      "sha256": "e4fcfd43c6dab35403b0f90ba1b171c0aa0b1bd5f6f44e30c3cf4b0486c9b138"
+    },
+    {
+      "path": "site/os/brain.jpg",
+      "bytes": 496948,
+      "sha256": "a2292f642f1e90148c6f42cb2bbed5264f5d9d6031d5df2972f6a9b3889a890e"
+    },
+    {
+      "path": "site/os/hands.jpg",
+      "bytes": 173967,
+      "sha256": "28bf2c288092ddf370c213c9713ea77669df149d0f2e89aab3b1309c82f7cf68"
+    },
+    {
+      "path": "site/os/poppy.jpg",
+      "bytes": 242601,
+      "sha256": "57809b1705113235b0efdd49d78760425b75868ac280925692ed90da190221b9"
+    },
+    {
+      "path": "site/os-art.js",
+      "bytes": 16397,
+      "sha256": "0257a6413a81f4acf70dc7704a3d4f3a27d9b37118521e7c04c1d8a8b9c8e335"
+    }
+  ]
+}
