@@ -1,0 +1,12 @@
+{
+	admin off
+	auto_https off
+}
+:{$PORT:8080} {
+	root * /srv
+	encode zstd gzip
+	@naked host workwithprompted.com
+	redir @naked https://www.workwithprompted.com{uri} permanent
+	header /os/* Cache-Control "public, max-age=604800"
+	file_server
+}
